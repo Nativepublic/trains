@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Track train routes across India in real-time. Get live status, PNR checking, and schedule information for all Indian Railways trains.">
+    <meta name="keywords" content="Indian trains, train tracker, railway schedule, PNR status, live train status, India railways">
+    <title>Bharat Rail Track - Indian Train Route Tracker</title>
+
+    <!-- Open Graph (for social sharing) -->
+    <meta property="og:title" content="Bharat Rail Track - Indian Train Route Tracker">
+    <meta property="og:description" content="Track Indian trains in real-time. Live status, PNR checking, schedule, and platform details for all Indian Railways.">
+    <meta property="og:image" content="https://yourwebsite.com/images/train-preview.jpg">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bharat Rail Track - Indian Train Route Tracker">
+    <meta name="twitter:description" content="Track Indian trains in real-time. Live status, PNR checking, and schedule details for Indian Railways.">
+    <meta name="twitter:image" content="https://yourwebsite.com/images/train-preview.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* --- Your CSS stays unchanged (not repeated for brevity) --- */
+    </style>
+
+    <!-- Structured Data (Schema for website + search) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Bharat Rail Track",
+      "url": "https://yourwebsite.com",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://yourwebsite.com/search?train={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-train" aria-hidden="true"></i>
+                    <h1>Bharat Rail Track</h1>
+                </div>
+                <!-- nav unchanged -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" role="banner" aria-label="Track Indian Trains in Real-Time">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Track Indian Trains in Real-Time</h2>
+                <p>Get live train status, platform information, schedule updates, and more for all Indian Railways</p>
+                <div class="search-box">
+                    <input type="text" placeholder="Enter Train Number or Name" aria-label="Search Train">
+                    <button>Track Train</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Features</h2>
+                <p>Everything you need to plan your train journey across India</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Live Train Tracking</h3>
+                    <p>Track the real-time location of any train on the Indian Railways network with our interactive map.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Schedule Information</h3>
+                    <p>Access accurate arrival and departure times for all stations along any train route.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-ticket-alt"></i>
+                    <h3>PNR Status Check</h3>
+                    <p>Check your booking confirmation status and get prediction for waitlisted tickets.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-subway"></i>
+                    <h3>Platform Locator</h3>
+                    <p>Find the correct platform number for your train at major stations across India.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bell"></i>
+                    <h3>Alert System</h3>
+                    <p>Set up personalized alerts for delay notifications, platform changes, and more.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-rupee-sign"></i>
+                    <h3>Fare Information</h3>
+                    <p>Check fare details for different classes across all train types.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ads, How it works, Footer remain same (you just add alt="alt" to images if any real <img> tags are added later) -->
+
+    <!-- Google AdSense script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6908330138031141" crossorigin="anonymous"></script><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "How to check live train status in India?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You can check live train status by entering the train number or name on Bharat Rail Track. The system shows real-time location, delay, and platform details."
+    }
+  }, {
+    "@type": "Question",
+    "name": "What is PNR status?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "PNR (Passenger Name Record) is a unique 10-digit number given when booking Indian Railways tickets. It helps check booking confirmation and seat status."
+    }
+  }, {
+    "@type": "Question",
+    "name": "Is train tracking free on Bharat Rail Track?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, Bharat Rail Track provides free live train tracking, schedule info, and PNR status checks for Indian Railways passengers."
+    }
+  }]
+}
+</script>
+</body>
+</html>
